@@ -1,27 +1,14 @@
-# Byte-compiled / optimized files
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
+# AWS credentials & config
+.aws/
+*.pem
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-.eggs/
+# Environment files
+.env
+*.env
 
-# Python virtual environments
-venv/
-env/
-.venv/
+# Local DB/cache
+*.sqlite3
+*.db
 
-# IDE settings
-.idea/
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# Logs
+*.log
