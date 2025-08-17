@@ -3,7 +3,6 @@
 *.pem
 
 # Environment files
-config.py
 *.env
 
 # Local DB/cache
